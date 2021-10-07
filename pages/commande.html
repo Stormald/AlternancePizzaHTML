@@ -22,6 +22,41 @@
         <a href="./trouver.html" class="button">Trouver votre restaurant</a>
 
     </div>
+    <div>
+        <form action="#">
+            <fieldset>
+                <legend>Panier</legend>
+                <label>Pizzas: </label>
+                <label>3 fromages</label>
+                <label>Dauphinoise</label><br>
+                <label>Salades: </label>
+                <label>Salade Tutti</label>
+            </fieldset>
+            <fieldset>
+                <legend>Coordonnées</legend>
+                <label for="nom">Nom :</label>
+                <input id="nom" placeholder="Granger" autofocus="" required=""><br>
+                <label for="prenom">Prénom :</label>
+                <input id="prenom" placeholder="Hermione" autofocus="" required=""><br>
+                <label for="adresse">Adresse :</label>
+                <input id="adresse" placeholder="34 chemin de Poudelard" autofocus="" required=""><br>
+                <label for="code-postal">Code Postal :</label>
+                <input id="code-postal" placeholder="69934" autofocus="" required=""><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre restaurant</legend>
+                <select name="restos" id="resto-select" required="">
+                    <option value="">--Please choose an option--</option>
+                    <option value="lyon">Lyon</option>
+                    <option value="paris">Paris</option>
+                    <option value="londres">Londres</option>
+                    <option value="bourg-palette">Bourg Palette</option>
+                </select>
+            </fieldset>
+            <input class="button" type="submit" value="Valider la commande">
+        </form>
+    </div>
 </body>
 
 </html>
