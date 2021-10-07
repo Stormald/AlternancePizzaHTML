@@ -1,16 +1,16 @@
 .pizzas, .formules, .salades{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
     list-style: none;
 }
 
 .pizzas > .pizza, .formules > .formule, .salades > .salade{
     margin: 5px;
-    width: 47%;
-    min-width: 560px;
-    min-height: 500px;
+    width: 30%;
+    min-width: 250px;
+    min-height: 220px;
     border: #BADA55 5px solid;
     border-radius: 10px;
     background: #BADA55;
@@ -23,4 +23,19 @@
 .pizzas > .pizza:hover, .formules > .formule:hover, .salades > .salade:hover{
     background: #FFFFFF;
 }
+
+.cote-a-cote{
+    display:flex;
+    justify-content: space-around;
+}
+
+.cote-a-cote > img{
+    width: 30%;
+}
+
+
+.cote-a-cote > div{
+    width:50%;
+}
+
 
