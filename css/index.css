@@ -1,4 +1,6 @@
-.pizzas, .formules, .salades{
+.pizzas,
+.formules,
+.salades {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -6,7 +8,9 @@
     list-style: none;
 }
 
-.pizzas > .pizza, .formules > .formule, .salades > .salade{
+.pizzas>.pizza,
+.formules>.formule,
+.salades>.salade {
     margin: 5px;
     width: 30%;
     min-width: 250px;
@@ -20,22 +24,25 @@
     padding: 10px;
 }
 
-.pizzas > .pizza:hover, .formules > .formule:hover, .salades > .salade:hover{
+.pizzas>.pizza:hover,
+.formules>.formule:hover,
+.salades>.salade:hover {
     background: #FFFFFF;
 }
 
-.cote-a-cote{
-    display:flex;
+.cote-a-cote {
+    display: flex;
     justify-content: space-around;
 }
 
-.cote-a-cote > img{
+.cote-a-cote>img {
     width: 30%;
 }
 
-
-.cote-a-cote > div{
-    width:50%;
+.cote-a-cote>div {
+    width: 50%;
 }
 
-
+h2 {
+    margin-left: 15px;
+}

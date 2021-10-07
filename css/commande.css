@@ -12,7 +12,6 @@ legend {
 label {
     width: 110px;
     display: inline-block;
-    vertical-align: top;
     margin: 6px;
 }
 
@@ -31,4 +30,8 @@ select {
 form {
     margin-left: 25%;
     margin-right: 25%;
+}
+
+body, html{
+    height:100%;
 }
