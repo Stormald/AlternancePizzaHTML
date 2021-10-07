@@ -1,0 +1,26 @@
+.pizzas, .formules, .salades{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 15px;
+    list-style: none;
+}
+
+.pizzas > .pizza, .formules > .formule, .salades > .salade{
+    margin: 5px;
+    width: 47%;
+    min-width: 560px;
+    min-height: 500px;
+    border: #BADA55 5px solid;
+    border-radius: 10px;
+    background: #BADA55;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.pizzas > .pizza:hover, .formules > .formule:hover, .salades > .salade:hover{
+    background: #FFFFFF;
+}
+
